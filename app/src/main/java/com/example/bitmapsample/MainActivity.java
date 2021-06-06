@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         ll_container.addView(bitmapView2);
         ll_container.addView(bitmapView3);
 
+        //shape drawable image using bitmap, canvas and paint.
         shapeDrawableImage(ll_container);
 
         ViewGroup parent = (ViewGroup)ll_container.getParent();
